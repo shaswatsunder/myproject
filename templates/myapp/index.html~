@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load staticfiles %} <!-- New line -->
+
+<html>
+
+    <head>
+        <title>1st template</title>
+    </head>
+
+    <body>
+        <h1>Shaswat says...</h1>
+        hello world! <strong>{{ boldmessage }}</strong><br />
+        <!--<a href="/myapp/about/">About</a><br>-->
+        <img src="{% static  'images/image.jpg' %}" alt="Picture of Aakash tablet" /> <!-- New line -->
+    </body>
+
+</html>
